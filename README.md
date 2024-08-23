@@ -1,7 +1,11 @@
 # Wrapper_Method_ObesityDataSet
 Overview
+This project analyzes data from a survey conducted by Fabio Mendoza Palechor and Alexis de la Hoz Manotas that asked people about their eating habits and weight. The data was obtained from the UCI Machine Learning Repository. Categorical variables were changed to numerical ones in order to facilitate analysis.
 
-This repository contains the implementation of a feature selection technique using the Wrapper Method on the Obesity Data Set. The objective of this project is to identify the most relevant features for predicting obesity-related outcomes using a machine learning model. The Wrapper Method is particularly useful because it evaluates feature subsets based on their performance with a specific learning algorithm, allowing for the selection of features that are most predictive.
+First, a logistic regression model to try to predict whether survey respondents are obese based on their answers to questions in the survey. After that, it used three different wrapper methods to choose a smaller feature subset.
+Sequential forward selection, sequential backward floating selection, and recursive feature elimination. 
+
+After implementing each wrapper method, it evaluated the model accuracy on the resulting smaller feature subsets and compared that with the model accuracy using all available features.
 
 Project Description
 
