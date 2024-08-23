@@ -1,5 +1,6 @@
 # Wrapper_Method_ObesityDataSet
 Overview
+
 This project analyzes data from a survey conducted by Fabio Mendoza Palechor and Alexis de la Hoz Manotas that asked people about their eating habits and weight. The data was obtained from the UCI Machine Learning Repository. Categorical variables were changed to numerical ones in order to facilitate analysis.
 
 First, a logistic regression model to try to predict whether survey respondents are obese based on their answers to questions in the survey. After that, it used three different wrapper methods to choose a smaller feature subset.
