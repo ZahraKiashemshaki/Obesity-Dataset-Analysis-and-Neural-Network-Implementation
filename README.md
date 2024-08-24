@@ -8,7 +8,6 @@ Sequential forward selection, sequential backward floating selection, and recurs
 
 After implementing each wrapper method, it evaluated the model accuracy on the resulting smaller feature subsets and compared that with the model accuracy using all available features.
 
-
 Evaluating a Logistic Regression Model
 The data set obesity contains 18 predictor variables. Here's a brief description of them.
 
