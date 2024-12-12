@@ -34,6 +34,7 @@ TUE: Time spent using devices with screens (scale of 0 to 2).
 CALC: Alcohol consumption frequency (scale of 0 to 3).
 Transportation Modes: Automobile, Bike, Motorbike, Public Transportation, Walking (indicated by 1 for primary mode and 0 otherwise).
 Project Objectives
+
 Preprocessing and Exploration: Prepare the dataset for machine learning models.
 Logistic Regression: Serve as a baseline model to classify obesity levels.
 Wrapper Method Feature Selection: Identify the most relevant features for better model performance.
@@ -41,10 +42,12 @@ Neural Network Implementation: Apply a neural network to classify obesity levels
 Neural Network Implementation
 A neural network was designed with the following architecture:
 
+
 Input Layer: Accepts all 18 predictor variables.
 Hidden Layers: Two layers with ReLU activation to capture complex patterns.
 Output Layer: A softmax layer for multiclass classification of obesity levels.
 Results
+
 Logistic regression performance improved after applying Wrapper Methods by selecting optimal subsets of features.
 The neural network outperformed the logistic regression model, especially when using the entire feature set.
 Feature selection reduced computational costs and slightly improved logistic regression performance, but the neural network showed robustness even without feature selection.
