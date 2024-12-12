@@ -1,4 +1,5 @@
 Obesity Dataset Analysis and Neural Network Implementation
+
 This project analyzes data from a survey conducted by Fabio Mendoza Palechor and Alexis de la Hoz Manotas that asked people about their eating habits and weight. The dataset was obtained from the UCI Machine Learning Repository.
 
 Overview
