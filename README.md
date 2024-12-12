@@ -3,9 +3,11 @@ Obesity Dataset Analysis and Neural Network Implementation
 This project analyzes data from a survey conducted by Fabio Mendoza Palechor and Alexis de la Hoz Manotas that asked people about their eating habits and weight. The dataset was obtained from the UCI Machine Learning Repository.
 
 Overview
+
 The analysis explores the relationship between eating habits, lifestyle, and obesity levels. Initially, categorical variables were transformed into numerical ones to facilitate analysis. The project focuses on:
 
 Logistic Regression Model:
+
 Predicts obesity levels based on survey responses.
 Evaluates model accuracy using all features.
 Feature Selection Using Wrapper Methods:
