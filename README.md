@@ -13,6 +13,7 @@ Evaluates model accuracy using all features.
 Feature Selection Using Wrapper Methods:
 Applied Sequential Forward Selection, Sequential Backward Floating Selection, and Recursive Feature Elimination (RFE).
 Evaluated and compared model performance using smaller feature subsets against all features.
+impalanted seaborn libarary to vizualtize Correlation heatmap
 Neural Network Implementation:
 Developed a neural network to classify obesity levels.
 Compared its performance with the logistic regression model.
